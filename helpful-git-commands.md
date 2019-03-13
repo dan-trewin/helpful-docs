@@ -17,3 +17,10 @@ Reset branch locally and remotely to a particular commit
 git reset --hard <commit-sha>
 git push -f origin <branch-A>
 ```
+
+Untrack files already added to git repository based on .gitignore
+(Before proceeding, make sure all your changes are committed, including your .gitignore file):
+```
+git rm -r --cached .
+git add .
+```
