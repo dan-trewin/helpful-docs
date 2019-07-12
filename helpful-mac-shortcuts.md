@@ -1,6 +1,7 @@
 # Helpful Mac Shortcuts
 
-These shortcuts are being compiled to help Windows natives adapt to a new mac. 
+These shortcuts are being compiled to help Windows natives adapt to a new mac.
+I also highly recommend downloading [Spectacle](https://www.spectacleapp.com/) as it will allow you to move and resize windows with ease (a feature Windows has had natively for ages)
 
 ## OS Shortcuts
 Description | Shortcut | Notes
