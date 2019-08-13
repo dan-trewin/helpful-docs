@@ -6,4 +6,4 @@
 
 ### [Mac Shortcuts](helpful-mac-shortcuts.md)
 
-### [Regex Cheat Sheet](helpful-regex-cheat-sheet.jpg)
+### [Regex Cheat Sheet](helpful-regex-cheat-sheet.md)
