@@ -8,7 +8,7 @@ git push -u origin <branch-A>
 
 Delete multiple local branches:
 ```
-git branch -D <branch-A> <branch-B>
+git branch -D <branch-A> <branch-B> <brach-C>
 ```
 
 Reset branch locally and remotely to a particular commit
@@ -19,8 +19,19 @@ git push -f origin <branch-A>
 ```
 
 Untrack files already added to git repository based on .gitignore
-(Before proceeding, make sure all your changes are committed, including your .gitignore file):
+(before proceeding, make sure all your changes are committed, including your .gitignore file):
 ```
 git rm -r --cached .
-git add .
+git add -A
+```
+
+Clone a repo with submodules making sure to fetch them all:
+```
+git clone <repo>
+git submodule update --init --recursive
+```
+
+Cherry pick (adds a single commit from another branch to current branch):
+```
+git cherry-pick <commit-sha>
 ```
